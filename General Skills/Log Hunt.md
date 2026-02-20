@@ -54,4 +54,5 @@ picoCTF{us3_`
 `
 ## Final Flag
 
-```picoCTF{us3_y0urlinux_sk1lls_cedfa5fb}```
+```bash
+picoCTF{us3_y0urlinux_sk1lls_cedfa5fb}```
