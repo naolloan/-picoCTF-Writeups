@@ -47,10 +47,10 @@
 
 The extracted parts are:
 `
-picoCTF{us3_
-y0urlinux_
-sk1lls_
-cedfa5fb}  
+picoCTF{us3_`
+`y0urlinux_`
+`sk1lls_`
+`cedfa5fb}  
 `
 ## Final Flag
 
