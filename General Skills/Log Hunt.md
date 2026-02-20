@@ -12,9 +12,8 @@
 
 > Challenge Link: https://play.picoctf.org/practice/challenge/527
 
-> Hints:
-1. You can use `grep` to filter only matching lines from the log.
-2. Some lines are duplicates; ignore extra occurrences.
+> Hints: 1. You can use `grep` to filter only matching lines from the log.
+         2. Some lines are duplicates; ignore extra occurrences.
 
 ## Steps
 
