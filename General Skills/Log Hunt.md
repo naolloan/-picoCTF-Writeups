@@ -27,19 +27,25 @@
 
 > After downloading the file, now it is time to display its contents since the flag is inside it. You can use the `cat` command for this.
 
-```cat server.log```
+```bash
+cat server.log
+```
 
 ![cat](Images/Screenshot2.png)
 
 > When you display the whole content of the log, you will see many logs which makes it hard to find the flag directly. But if you look closely the word INFO is repeated many times. Use the following command to filter logs corresponding to INFO.
 
-```cat server.log | grep INFO```
+```bash
+cat server.log | grep INFO
+```
 
 ![grep INFO](Images/Screenshot3.png)
 
 > And walaa! you can see that in the first line there is mention of FLAGPART. So we can use this information and try to display the contents only corresponding to the FLAGPART logs.
 
-```cat server.log | grep FLAGPART```
+```bash
+cat server.log | grep FLAGPART
+```
 
 ![grep FLAGPART](Images/Screenshot4.png)
 
@@ -55,4 +61,5 @@ picoCTF{us3_`
 ## Final Flag
 
 ```bash
-picoCTF{us3_y0urlinux_sk1lls_cedfa5fb}```
+picoCTF{us3_y0urlinux_sk1lls_cedfa5fb}
+```
