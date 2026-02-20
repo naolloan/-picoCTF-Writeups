@@ -20,4 +20,20 @@
 
 > Now we will download the logs file using wget command. After downloading you can find a server.log file in the home folder.
 
->    
+> After downloading the file, now it is time to display its contents since the flag is inside it. You can use the cat command for this.
+
+>When you display the whole content of the log, you will see many logs which makes it hard to find the flag directly. But if you look closely the word INFO is repeated many times. Use the following command to filter logs corresponding to INFO.
+
+>And walaa! you can see that in the first line there is mention of FLAGPART. So we can use this information and try to display the contents only corresponding to the FLAGPART logs.
+
+>Now we only see the flag fragments. And all we got to do is combine all the fragments in the correct order.
+
+The extracted parts are:
+```
+picoCTF{us3_
+y0urlinux_
+sk1lls_
+cedfa5fb}  
+```
+## Final Flag
+`picoCTF{us3_y0urlinux_sk1lls_cedfa5fb}`
