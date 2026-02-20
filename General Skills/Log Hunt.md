@@ -63,3 +63,8 @@ picoCTF{us3_`
 ```bash
 picoCTF{us3_y0urlinux_sk1lls_cedfa5fb}
 ```
+
+## Video Walkthrough
+
+[Watch the full screen recording here](https://drive.google.com/file/d/1-6lNJfaxeoR7cujuYc9W5jLik8CVkT9x/view?usp=sharing)
+
